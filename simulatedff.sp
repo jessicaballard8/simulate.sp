@@ -12,7 +12,7 @@ xi clk d r q dff
 vdd vdd! gnd! 1.2v
 vreset r gnd! 0v
 vclock clk gnd! pwl(0ns 1.2v 1ns 1.2v 1.05ns 0v 2.05ns 0v 2.10ns 1.2v 3.10ns 1.2v 3.15ns 0v 4.15ns 0v 4.20ns 1.2v 5.20ns 1.2v 5.25ns 0v 6.25ns 0v 6.3ns 1.2v 7.3ns 1.2v 7.35ns 0v 8.35ns 0v 8.4ns 1.2v 9.4ns 1.2v)
-vdata d gnd! pwl(0ns 1.2v 1ns 1.2v 1.05ns 0v 2.5ns 0v 2.55ns 1.2v 3.55ns 1.2v 3.6ns 0v)
+vdata d gnd! pwl(0ns 1.2v 1ns 1.2v 1.05ns 0v 2.05ns 0v 3.1ns 1.2v 4.1ns)
 cout q gnd! 80f
 
 $transient analysis
