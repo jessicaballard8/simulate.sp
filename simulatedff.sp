@@ -11,7 +11,7 @@ xi clk d r q dff
 
 vdd vdd! gnd! 1.2v
 vreset r gnd! 1.2v
-vclock clk gnd! pwl(0ns 1.2v 1ns 1.2v 1.05ns 0v 6ns 0v 6.05ns 1.2v 12ns 1.2v)
+vclock clk gnd! pwl(0ns 1.2v 1ns 1.2v 1.05ns 0v 2.05ns 0v 2.10ns 1.2v 3.10ns 1.2v 3.15ns 0v 4.15ns 0v 4.20ns 1.2v 5.20ns 1.2v 5.25ns 0v 6.25ns 0v 7.25ns 1.2v 8.25ns 1.2v 8.3ns 0v 8.4ns 0v 8.45ns 1.2v 9.45ns 1.2v)
 vdata d gnd! pwl(0ns 1.2v 1ns 1.2v 1.05ns 0v 6ns 0v 6.05ns 1.2v 12ns 1.2v)
 cout q gnd! 80f
 
