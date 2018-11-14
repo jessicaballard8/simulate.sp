@@ -13,7 +13,7 @@ in out inv
 vdd vdd! gnd! 1.2v
 reset r gnd! 1.2v
 clock clk gnd! pwl(0ns 1.2v 1ns 1.2v 1.05ns 0v 6ns 0v 6.05ns 1.2v 12ns 1.2v)
-data d gnd! pwl(0ns 1.2v 1ns 1.2v 1.05ns 0v 6ns 0v 6.05ns 1.2v 12ns 1.2v)
+$data d gnd! pwl(0ns 1.2v 1ns 1.2v 1.05ns 0v 6ns 0v 6.05ns 1.2v 12ns 1.2v)
 cout q gnd! 80f
 
 $transient analysis
