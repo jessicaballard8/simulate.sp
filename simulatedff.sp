@@ -8,7 +8,6 @@ $transistor model
 .option post runlvl=5
 
 xi clk d r q dff
-in out inv
 
 vdd vdd! gnd! 1.2v
 reset r gnd! 1.2v
